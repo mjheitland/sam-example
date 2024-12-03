@@ -15,3 +15,7 @@ sam build
 
 sam deploy --guided
 ```
+
+## Teardown
+
+sam delete
