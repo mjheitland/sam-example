@@ -1,0 +1,37 @@
+# SAM build artifacts
+.aws-sam/
+
+# Node.js dependencies (if using Node.js runtime)
+node_modules/
+
+# Python dependencies (if using Python runtime)
+*.pyc
+*.pyo
+__pycache__/
+.env
+
+# Java dependencies (if using Java runtime)
+target/
+
+# Ruby dependencies (if using Ruby runtime)
+vendor/bundle
+
+# Go dependencies (if using Go runtime)
+bin/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and debug output
+*.log
+
+# AWS credentials and configuration (ensure they're handled securely elsewhere)
+*.env
+.env.*
+
